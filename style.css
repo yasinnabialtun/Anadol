@@ -1,0 +1,62 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "TeslaFont";
+  src: url("tesla.ttf") format("truetype");
+}
+
+.logo h1 {
+  font-family: "TeslaFont";
+  font-size: 35px;
+  padding: 20px;
+}
+
+header {
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 100dvh;
+  background-image: url(img/anadolbeyaz.jpg);
+}
+
+header li {
+  font-size: 15px bold;
+}
+
+.container-body {
+  margin: 1px;
+  padding: 1px;
+}
+
+/*scrollbar ayarları*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background-color: whitesmoke;
+  overflow-x: hidden !important;
+}
